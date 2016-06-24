@@ -1,0 +1,6 @@
+1;test;test;yes
+2;ja;aj;no
+3;lol;fa;no
+4;t;t;no
+5;q;q;no
+6;w;w;no

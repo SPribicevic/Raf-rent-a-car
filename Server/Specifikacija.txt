@@ -1,0 +1,36 @@
+REG	USER	PASS	-------> registracija korisnika
+LOG	USER	PASS	-------> logovanje korisnika
+ADD	CUSTOMER/CAR -------> dodavanje musterije/vozila
+DEL	CUSTOMER_ID/CAR_ID -------> brisanje musterije/vozila
+LIST	-------> stampanje svih musterija
+LIST CUSTOMER CUSTOMER_ID -----> detaljno stampanje musterije
+LIST CAR ALL/AVAILABLE/BUSY	------> stampanje vozila
+LIST CAR CAR_ID	------> detaljno stampanje vozila
+RENT CUSTOMER_ID CAR_ID(available)	------> izdavanje slobodnog vozila musteriji
+RETURN CUSTOMER_ID CAR_ID	-------> vracanje vozila u agenciju
+
+Customer(5):
+1. id
+2. name
+3. surname
+4. JMBG (13)
+5. category (1-5)
+
+Car(4):
+1. id
+2. reg_plate (5)
+3. category (1-5)
+4. model
+
+User(4):
+1. id
+2. user
+3. pass
+4. logged 
+
+Rent(4):
+1. customer_id
+2. car_id
+3. start_date
+4. end_date
+
